@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thalam | Handmade Indian Musical Instruments, Chennai</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Hind:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="flex.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="#top" class="logo">Thalam</a>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="#instruments">Instruments</a></li>
+        <li><a href="#workshop">Workshop</a></li>
+        <li><a href="#visit">Visit</a></li>
+        <li><a href="#enquire" class="btn btn-small">Book a trial</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO: giant headline row that wraps word by word -->
+    <section class="hero">
+      <h1 class="hero-title">
+        <span>Made</span><span class="pill">by hand</span><span>in</span>
+        <span class="pill pill-alt">Mylapore</span><span>for your</span><span class="pill">next</span><span>raga.</span>
+      </h1>
+      <div class="hero-side">
+        <p>Veenas, flutes, mridangams and tanpuras built one at a time by third-generation craftsmen. Every instrument is tuned and played by a teacher before it ships.</p>
+        <a href="#instruments" class="btn">Meet the instruments</a>
+      </div>
+    </section>
+
+    <!-- INSTRUMENT PANELS: flex-grow expands the hovered or focused panel -->
+    <section id="instruments" class="section">
+      <h2>Pick one up. Literally.</h2>
+      <p class="section-intro">Hover or tab through the panels to open them.</p>
+      <div class="panels">
+        <article class="panel p1" tabindex="0">
+          <h3>Saraswati Veena</h3>
+          <div class="panel-more">
+            <p>Jackwood body, brass frets set by ear. Ships with a cover and spare strings.</p>
+            <span class="price">from ₹68,000</span>
+          </div>
+        </article>
+        <article class="panel p2" tabindex="0">
+          <h3>Bamboo Flute</h3>
+          <div class="panel-more">
+            <p>Cured for two years before drilling. Available in 8 scales, A to G#.</p>
+            <span class="price">from ₹2,400</span>
+          </div>
+        </article>
+        <article class="panel p3" tabindex="0">
+          <h3>Mridangam</h3>
+          <div class="panel-more">
+            <p>Jackfruit shell, goat-skin heads, pre-tuned to your pitch.</p>
+            <span class="price">from ₹14,500</span>
+          </div>
+        </article>
+        <article class="panel p4" tabindex="0">
+          <h3>Tanpura</h3>
+          <div class="panel-more">
+            <p>Long-sustain gourd body with a clean jawari bridge.</p>
+            <span class="price">from ₹22,000</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- WORKSHOP: a real sequence, so steps are numbered -->
+    <section id="workshop" class="section section-dark">
+      <h2>From a log to your living room</h2>
+      <ol class="steps">
+        <li class="step"><b>1</b><h3>Seasoning</h3><p>Wood rests 18 months before it is cut.</p></li>
+        <li class="step"><b>2</b><h3>Carving</h3><p>One craftsman shapes one instrument start to finish.</p></li>
+        <li class="step"><b>3</b><h3>Tuning</h3><p>A working musician plays and adjusts it.</p></li>
+        <li class="step"><b>4</b><h3>Delivery</h3><p>Packed in a hard case, insured, 5 days across India.</p></li>
+      </ol>
+    </section>
+
+    <!-- VISIT + ENQUIRY -->
+    <section id="visit" class="section visit">
+      <div class="visit-info">
+        <h2>Come play before you buy</h2>
+        <p>Our showroom is open Tuesday to Sunday, 10 am to 7 pm. Trial sessions last 30 minutes and are free.</p>
+        <p>14 Kutchery Road, Mylapore, Chennai<br>+91 98765 43210</p>
+      </div>
+      <form id="enquire" class="enquire" action="#" method="post">
+        <label>Your name <input type="text" name="name" required></label>
+        <label>Phone <input type="tel" name="phone" required></label>
+        <label>Instrument
+          <select name="instrument">
+            <option>Saraswati Veena</option>
+            <option>Bamboo Flute</option>
+            <option>Mridangam</option>
+            <option>Tanpura</option>
+          </select>
+        </label>
+        <button type="submit" class="btn">Book my trial</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Thalam Instruments, Chennai</p>
+    <ul class="footer-links">
+      <li><a href="#instruments">Instruments</a></li>
+      <li><a href="#workshop">Workshop</a></li>
+      <li><a href="#visit">Visit</a></li>
+    </ul>
+  </footer>
+
+</body>
+</html>
