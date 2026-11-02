@@ -371,10 +371,10 @@ select:focus-visible, .panel:focus-visible { outline: 3px solid var(--marigold);
 ```
 
 ## OUTPUT
-![alt text](flexapp/f1.png)
-![alt text](flexapp/f2.png)
-![alt text](flexapp/f3.png)
-![alt text](flexapp/f4.png)
+![alt text](flexpro/flexapp/f1.png)
+![alt text](flexpro/flexapp/f2.png)
+![alt text](flexpro/flexapp/f3.png)
+![alt text](flexpro/flexapp/f4.png)
 
 ## RESULT
 The program for creating commercial website using CSS Flexbox is executed successfully.
